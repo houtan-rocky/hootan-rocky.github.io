@@ -101,8 +101,8 @@ video {
 	width: 100%;
 	height: 7rem; /* Footer height */
 	background-image: linear-gradient(
-		rgba(44, 14, 164, 0.5),
-		rgba(2, 2, 6, 0.5),
+		rgba(30, 6, 89, 0.5),
+		rgba(23, 23, 53, 0.5),
 		rgba(53, 8, 108, 0.628)
 	);
 }
@@ -113,8 +113,8 @@ video {
 	border-radius: 50px;
 	padding: 40px 20px 40px 20px;
 	background-image: linear-gradient(
-		rgb(139, 137, 13),
-		rgb(174, 180, 129),
+		rgb(57, 56, 5),
+		rgb(161, 175, 50),
 		rgb(109, 104, 13)
 	);
 }
@@ -125,8 +125,8 @@ video {
 	border-radius: 50px;
 	padding: 40px 20px 40px 20px;
 	background-image: linear-gradient(
-		rgb(142, 44, 19),
-		rgb(176, 120, 113),
+		rgb(72, 17, 4),
+		rgb(107, 46, 37),
 		rgb(102, 41, 15)
 	);
 }
@@ -135,8 +135,8 @@ video {
 	border-radius: 50px;
 	padding: 40px 20px 40px 20px;
 	background-image: linear-gradient(
-		rgb(17, 12, 172),
-		rgb(58, 54, 136),
+		rgb(6, 5, 47),
+		rgb(29, 24, 105),
 		rgb(30, 15, 145)
 	);
 }
