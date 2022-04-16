@@ -4,7 +4,7 @@ function login() {
 	let username = prompt("please enter your username");
 	let password = prompt(`please enter password for username ${username}`);
 	if (!(username === userLogin.username && password === userLogin.password)) {
-		location.reload();
+		window.stop();
 	}
 }
 
