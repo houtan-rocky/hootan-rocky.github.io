@@ -121,7 +121,24 @@ video {
 
 nav a {
 	padding: 10px 30px;
+	color: mediumspringgreen;
 }
+
+a[href="#java-script"] {
+	color: yellow;
+}
+a[href="#html"] {
+	color: red;
+}
+a[href="#css"] {
+	color: blue;
+}
+
 a {
 	color: rgb(43, 156, 77);
+	padding: 5px 15px;
+}
+a:hover {
+	font-size: larger;
+	border: 3px solid rgba(135, 133, 133, 0.445);
 }
