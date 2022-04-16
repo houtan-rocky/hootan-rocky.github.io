@@ -2,8 +2,9 @@ body {
 	font-family: Roboto;
 	font-size: large;
 	color: rgba(255, 255, 255, 0.769);
-	background-color: rgb(12, 38, 105);
-	background-image: url(/img/karoon.jpg);
+	background-color: rgb(4, 15, 41);
+
+	/* background-image: url(/img/karoon.jpg); */
 	background-size: cover;
 	background-blend-mode: color-burn;
 }
@@ -111,6 +112,11 @@ video {
 	margin-bottom: 20px;
 	border-radius: 50px;
 	padding: 40px 20px 40px 20px;
+	background-image: linear-gradient(
+		rgb(139, 137, 13),
+		rgb(174, 180, 129),
+		rgb(109, 104, 13)
+	);
 }
 
 #html {
@@ -118,11 +124,21 @@ video {
 	margin-bottom: 20px;
 	border-radius: 50px;
 	padding: 40px 20px 40px 20px;
+	background-image: linear-gradient(
+		rgb(142, 44, 19),
+		rgb(176, 120, 113),
+		rgb(102, 41, 15)
+	);
 }
 #css {
 	border: 10px solid rgb(4, 54, 163);
 	border-radius: 50px;
 	padding: 40px 20px 40px 20px;
+	background-image: linear-gradient(
+		rgb(17, 12, 172),
+		rgb(58, 54, 136),
+		rgb(30, 15, 145)
+	);
 }
 
 nav a {
