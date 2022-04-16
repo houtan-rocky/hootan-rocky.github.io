@@ -1,8 +1,8 @@
 body {
 	font-family: Roboto;
 	font-size: large;
-	color: white;
-	background-color: rgb(13, 37, 94);
+	color: rgba(255, 255, 255, 0.769);
+	background-color: rgb(12, 38, 105);
 	background-image: url(/img/karoon.jpg);
 	background-size: cover;
 	background-blend-mode: color-burn;
@@ -15,6 +15,7 @@ body {
 }
 
 #my-image {
+	background-blend-mode: darken;
 	width: 100px;
 	border-radius: 50px;
 	float: left;
@@ -92,14 +93,16 @@ video {
 }
 
 #footer {
+	border: 1px solid rgba(255, 102, 0, 0.653);
+	border-radius: 10px;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 7rem; /* Footer height */
 	background-image: linear-gradient(
-		rgba(206, 150, 8, 0.5),
-		rgba(230, 230, 215, 0.5),
-		rgb(41, 144, 181)
+		rgba(25, 8, 94, 0.5),
+		rgba(49, 4, 4, 0.5),
+		rgb(50, 6, 60)
 	);
 }
 
@@ -121,24 +124,28 @@ video {
 
 nav a {
 	padding: 10px 30px;
-	color: mediumspringgreen;
+	color: rgba(0, 250, 154, 0.571);
 }
 
 a[href="#java-script"] {
-	color: yellow;
+	color: rgba(255, 255, 0, 0.616);
 }
 a[href="#html"] {
-	color: red;
+	color: rgba(255, 0, 0, 0.58);
 }
 a[href="#css"] {
-	color: blue;
+	color: rgba(0, 0, 255, 0.667);
 }
 
 a {
-	color: rgb(43, 156, 77);
+	color: rgba(11, 121, 44, 0.719);
 	padding: 5px 15px;
 }
-a:hover {
-	font-size: larger;
-	border: 3px solid rgba(135, 133, 133, 0.445);
+nav a:hover {
+	border: 3px solid rgba(223, 221, 221, 0.667);
+	border-radius: 50px;
+}
+
+nav li {
+	border: 2px solid dark;
 }
