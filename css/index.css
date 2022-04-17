@@ -143,8 +143,10 @@ video {
 }
 
 nav a {
-	padding: 10px 30px;
+	padding: 1vw 4vw;
 	color: rgba(0, 255, 255, 0.68);
+	border: 3px solid rgba(11, 75, 120, 0.667);
+	border-radius: 50px;
 }
 
 a {
@@ -153,7 +155,7 @@ a {
 }
 nav a:hover,
 nav a::selection {
-	border: 3px solid rgba(255, 255, 255, 0.667);
+	border: 3px solid rgba(177, 13, 13, 0.779);
 	border-radius: 50px;
 }
 
