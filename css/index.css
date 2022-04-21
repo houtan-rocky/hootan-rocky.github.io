@@ -97,7 +97,7 @@ video {
 	border: 1px solid rgba(3, 3, 102, 0.653);
 	border-radius: 10px;
 	position: absolute;
-	bottom: 1vw;
+	bottom: -20vh;
 	width: 100%;
 	height: 7rem; /* Footer height */
 	background-image: linear-gradient(
@@ -105,6 +105,10 @@ video {
 		rgba(23, 23, 53, 0.5),
 		rgba(53, 8, 108, 0.628)
 	);
+}
+
+#footer:active {
+	background: rgb(111, 180, 7);
 }
 
 #java-script {
