@@ -107,6 +107,10 @@ video {
 	);
 }
 
+#footer:active {
+	background: rgb(111, 180, 7);
+}
+
 #java-script {
 	border: 10px solid rgba(203, 206, 16, 0.879);
 	margin-bottom: 20px;
