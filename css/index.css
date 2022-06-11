@@ -9,6 +9,20 @@ body {
 	background-blend-mode: color-burn;
 }
 
+a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.769);
+}
+
+a:visited {
+	color: rgba(255, 255, 255, 0.769);
+}
+
+#java-script li::marker {
+	content: ">>";
+	padding-right: 5px;
+}
+
 .intro {
 	width: 100%;
 	border-style: hidden;
@@ -86,7 +100,7 @@ video {
 
 #page-container {
 	position: relative;
-	min-height: 200vh;
+	min-height: 160vh;
 }
 
 #content-wrap {
